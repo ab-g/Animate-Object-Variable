@@ -1,1 +1,210 @@
-{"@class":"ResourcePack","cameras":{"@class":"StdResourceMapCamera","map":[{"key":{"uuid":"99DE5B61-6462-40B9-A813-FBA5AA0FB737"},"value":{"@class":"Camera","id":{"uuid":"99DE5B61-6462-40B9-A813-FBA5AA0FB737"}}}]},"colliders":{"@class":"StdResourceMapCollider","map":[{"key":{"uuid":"3BF92E38-04DF-46A6-A60E-CB76667083A9"},"value":{"@class":"Collider","id":{"uuid":"3BF92E38-04DF-46A6-A60E-CB76667083A9"}}}]},"images":{"@class":"StdResourceMapImage","map":[{"key":{"uuid":"D6B9EBE3-D3D6-444C-8F37-F86FC7039750"},"value":{"@class":"DevILImage","id":{"uuid":"D6B9EBE3-D3D6-444C-8F37-F86FC7039750"}}}]},"lights":{"@class":"StdResourceMapLight","map":[]},"materials":{"@class":"StdResourceMapMaterial","map":[{"key":{"uuid":"4D48F86D-ECE2-462D-8509-5CC70644CDBC"},"value":{"@class":"Material","id":{"uuid":"4D48F86D-ECE2-462D-8509-5CC70644CDBC"}}}]},"meshes":{"@class":"StdResourceMapMesh","map":[{"key":{"uuid":"2DFB2E0B-E99A-4A53-8D30-B57257AF17EB"},"value":{"@class":"Mesh","id":{"uuid":"2DFB2E0B-E99A-4A53-8D30-B57257AF17EB"}}}]},"rigidBodies":{"@class":"StdResourceMapPhysicsBody","map":[{"key":{"uuid":"70D69DB0-8308-441B-BD47-892C70F11781"},"value":{"@class":"PhysicsBody","id":{"uuid":"70D69DB0-8308-441B-BD47-892C70F11781"}}}]},"scenes":{"@class":"StdResourceMapScene","map":[{"key":{"uuid":"1C435217-1F56-4B14-B162-D5571841CD11"},"value":{"@class":"BaseScene","id":{"uuid":"1C435217-1F56-4B14-B162-D5571841CD11"}}}]},"skinControllers":{"@class":"StdResourceMapSkinController","map":[]},"soundSamples":{"@class":"StdResourceMapSoundSample","map":[]},"textures2d":{"@class":"StdResourceMapTexture2D","map":[{"key":{"uuid":"9F6B5CB4-A449-40E5-BC41-C65F6EB0A7F0"},"value":{"@class":"Texture2D","id":{"uuid":"9F6B5CB4-A449-40E5-BC41-C65F6EB0A7F0"}}}]},"texturesCube":{"@class":"StdResourceMapTextureCube","map":[]}}
+{
+  "@class": "ResourcePack",
+  "animations": {
+    "@class": "StdResourceMapAnimation",
+    "map": [
+      {
+        "key": {
+          "uuid": "C59B6255-FFAC-44CB-B5DB-859E1EFC0A9D"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "C59B6255-FFAC-44CB-B5DB-859E1EFC0A9D"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "D92E2C9E-74FF-472D-8F2A-17D5E4DEDCD8"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "D92E2C9E-74FF-472D-8F2A-17D5E4DEDCD8"
+          }
+        }
+      }
+    ]
+  },
+  "cameras": {
+    "@class": "StdResourceMapCamera",
+    "map": [
+      {
+        "key": {
+          "uuid": "99DE5B61-6462-40B9-A813-FBA5AA0FB737"
+        },
+        "value": {
+          "@class": "Camera",
+          "id": {
+            "uuid": "99DE5B61-6462-40B9-A813-FBA5AA0FB737"
+          }
+        }
+      }
+    ]
+  },
+  "colliders": {
+    "@class": "StdResourceMapCollider",
+    "map": [
+      {
+        "key": {
+          "uuid": "3BF92E38-04DF-46A6-A60E-CB76667083A9"
+        },
+        "value": {
+          "@class": "Collider",
+          "id": {
+            "uuid": "3BF92E38-04DF-46A6-A60E-CB76667083A9"
+          }
+        }
+      }
+    ]
+  },
+  "images": {
+    "@class": "StdResourceMapImage",
+    "map": [
+      {
+        "key": {
+          "uuid": "D6B9EBE3-D3D6-444C-8F37-F86FC7039750"
+        },
+        "value": {
+          "@class": "DevILImage",
+          "id": {
+            "uuid": "D6B9EBE3-D3D6-444C-8F37-F86FC7039750"
+          }
+        }
+      }
+    ]
+  },
+  "lights": {
+    "@class": "StdResourceMapLight",
+    "map": []
+  },
+  "materials": {
+    "@class": "StdResourceMapMaterial",
+    "map": [
+      {
+        "key": {
+          "uuid": "4A5E840C-AF7B-4DBC-A2C5-37D5DD94451A"
+        },
+        "value": {
+          "@class": "Material",
+          "id": {
+            "uuid": "4A5E840C-AF7B-4DBC-A2C5-37D5DD94451A"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "4D48F86D-ECE2-462D-8509-5CC70644CDBC"
+        },
+        "value": {
+          "@class": "Material",
+          "id": {
+            "uuid": "4D48F86D-ECE2-462D-8509-5CC70644CDBC"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "5BFAF4E6-7366-43D5-90A4-D8680246410A"
+        },
+        "value": {
+          "@class": "Material",
+          "id": {
+            "uuid": "5BFAF4E6-7366-43D5-90A4-D8680246410A"
+          }
+        }
+      }
+    ]
+  },
+  "meshes": {
+    "@class": "StdResourceMapMesh",
+    "map": [
+      {
+        "key": {
+          "uuid": "2DFB2E0B-E99A-4A53-8D30-B57257AF17EB"
+        },
+        "value": {
+          "@class": "Mesh",
+          "id": {
+            "uuid": "2DFB2E0B-E99A-4A53-8D30-B57257AF17EB"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "7E2A72A3-AF2D-4279-8C69-D8F1C2523E30"
+        },
+        "value": {
+          "@class": "BoxMesh",
+          "id": {
+            "uuid": "7E2A72A3-AF2D-4279-8C69-D8F1C2523E30"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "BD8EF14C-597B-478C-8FDB-265AB7C99C80"
+        },
+        "value": {
+          "@class": "BoxMesh",
+          "id": {
+            "uuid": "BD8EF14C-597B-478C-8FDB-265AB7C99C80"
+          }
+        }
+      }
+    ]
+  },
+  "rigidBodies": {
+    "@class": "StdResourceMapPhysicsBody",
+    "map": [
+      {
+        "key": {
+          "uuid": "70D69DB0-8308-441B-BD47-892C70F11781"
+        },
+        "value": {
+          "@class": "PhysicsBody",
+          "id": {
+            "uuid": "70D69DB0-8308-441B-BD47-892C70F11781"
+          }
+        }
+      }
+    ]
+  },
+  "scenes": {
+    "@class": "StdResourceMapScene",
+    "map": [
+      {
+        "key": {
+          "uuid": "1C435217-1F56-4B14-B162-D5571841CD11"
+        },
+        "value": {
+          "@class": "BaseScene",
+          "id": {
+            "uuid": "1C435217-1F56-4B14-B162-D5571841CD11"
+          }
+        }
+      }
+    ]
+  },
+  "textures2d": {
+    "@class": "StdResourceMapTexture2D",
+    "map": [
+      {
+        "key": {
+          "uuid": "9F6B5CB4-A449-40E5-BC41-C65F6EB0A7F0"
+        },
+        "value": {
+          "@class": "Texture2D",
+          "id": {
+            "uuid": "9F6B5CB4-A449-40E5-BC41-C65F6EB0A7F0"
+          }
+        }
+      }
+    ]
+  },
+  "texturesCube": {
+    "@class": "StdResourceMapTextureCube",
+    "map": []
+  }
+}

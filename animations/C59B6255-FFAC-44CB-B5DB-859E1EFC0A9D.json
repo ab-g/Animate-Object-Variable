@@ -1,0 +1,71 @@
+{
+  "@class": "Animation",
+  "id": {
+    "uuid": "C59B6255-FFAC-44CB-B5DB-859E1EFC0A9D"
+  },
+  "tracks": [
+    {
+      "@class": "FloatBehaviorTrack",
+      "clips": [
+        {
+          "@class": "FloatBehaviorClip",
+          "beginTime": 0,
+          "duration": 5000,
+          "script": "FloatValueBehaviorClipScript",
+          "behavior": {
+            "@class": "FloatBezierBehavior",
+            "frames": [
+              {
+                "@class": "FloatBezierKeyFrame",
+                "formula": {
+                  "@class": "FloatExpressionFormula",
+                  "expression": "origin"
+                },
+                "time": 0,
+                "point1": {
+                  "values": [
+                    0,
+                    0
+                  ]
+                },
+                "point2": {
+                  "values": [
+                    0,
+                    0
+                  ]
+                },
+                "order": "linear",
+                "transition": true
+              },
+              {
+                "@class": "FloatBezierKeyFrame",
+                "formula": {
+                  "@class": "FloatExpressionFormula",
+                  "expression": "origin+5"
+                },
+                "time": 5000,
+                "point1": {
+                  "values": [
+                    0,
+                    0
+                  ]
+                },
+                "point2": {
+                  "values": [
+                    0,
+                    0
+                  ]
+                },
+                "order": "linear",
+                "transition": true
+              }
+            ]
+          }
+        }
+      ],
+      "script": "FloatBehaviorTrackScript",
+      "accessor": "FloatVariableAccessor",
+      "attribute": "x"
+    }
+  ]
+}
