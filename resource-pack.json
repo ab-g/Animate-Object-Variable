@@ -5,6 +5,17 @@
     "map": [
       {
         "key": {
+          "uuid": "6E8BBCC6-15BF-4D02-A691-80D7F01EE555"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "6E8BBCC6-15BF-4D02-A691-80D7F01EE555"
+          }
+        }
+      },
+      {
+        "key": {
           "uuid": "C59B6255-FFAC-44CB-B5DB-859E1EFC0A9D"
         },
         "value": {

@@ -234,7 +234,7 @@
         "id": {
           "uuid": "932CD543-680B-46BD-8CEB-624D60CC89C4"
         },
-        "name": "Box",
+        "name": "Box Begin",
         "enabled": true,
         "visible": true,
         "hitVisible": true,
@@ -295,7 +295,7 @@
         "id": {
           "uuid": "4CC165A1-9325-44F8-93B5-0606A974E4F8"
         },
-        "name": "Animation of Box.x - X",
+        "name": "Box Begin Variable Animation - X",
         "enabled": true,
         "visible": true,
         "hitVisible": true,
@@ -342,7 +342,7 @@
         "id": {
           "uuid": "308520FD-ABE7-47ED-8072-74120A8FD9CE"
         },
-        "name": "Box Animation",
+        "name": "Box Begin Animation",
         "enabled": true,
         "visible": true,
         "hitVisible": true,
@@ -437,6 +437,56 @@
           "importedName": "",
           "isBone": false
         }
+      },
+      "children": [
+        "2A787DC9-7412-4390-9CCD-0FC04A605A0D"
+      ]
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "2A787DC9-7412-4390-9CCD-0FC04A605A0D"
+        },
+        "name": "Box End Variable Animation - Y",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "timeline": {
+          "@class": "BaseComponentTimeline",
+          "timelineId": {
+            "uuid": "ED5E9DD5-134E-4823-8EC7-09AE1C56B5E4"
+          }
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
       }
     }
   ],
@@ -483,6 +533,12 @@
         "@class": "TimeLineScript",
         "id": {
           "uuid": "9275167D-12D5-4854-89C3-97BDA0A16AE4"
+        }
+      },
+      {
+        "@class": "TimeLineScript",
+        "id": {
+          "uuid": "ED5E9DD5-134E-4823-8EC7-09AE1C56B5E4"
         }
       }
     ]

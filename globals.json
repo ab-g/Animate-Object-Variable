@@ -7,6 +7,15 @@
     {
       "@class": "VariantVariable",
       "id": {
+        "uuid": "4AC27158-F50B-47E8-A5F9-03ECED6B4712"
+      },
+      "name": "object__92B80D6C_49AD_4BF7_A378_6B02983FB97B__y",
+      "type": "float",
+      "value": 0
+    },
+    {
+      "@class": "VariantVariable",
+      "id": {
         "uuid": "0B2385AB-0712-4C9C-AF7E-29217DCAED51"
       },
       "name": "object__932CD543_680B_46BD_8CEB_624D60CC89C4__x",
